@@ -42,8 +42,8 @@ llm_model_dict = {
     },
     "chatglm-6b-int4": {
         "name": "chatglm-6b-int4",
-        "pretrained_model_name": "models/chatglm-6b-int4",
-        "local_model_path": "models/chatglm-6b-int4",
+        "pretrained_model_name": "/ChatGPT/langchain_ChatGLM/models/chatglm-6b-int4",
+        "local_model_path": None,
         "provides": "ChatGLM"
     },
     "chatglm-6b-int8": {

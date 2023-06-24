@@ -36,14 +36,14 @@ EMBEDDING_DEVICE = "cuda" if torch.cuda.is_available() else "mps" if torch.backe
 llm_model_dict = {
     "chatglm-6b-int4-qe": {
         "name": "chatglm-6b-int4-qe",
-        "pretrained_model_name": "THUDM/chatglm-6b-int4-qe",
+        "pretrained_model_name": "/ChatGPT/langchain_ChatGLM/models/chatglm-6b-int4/chatglm-6b-int4-qe",
         "local_model_path": None,
         "provides": "ChatGLM"
     },
     "chatglm-6b-int4": {
         "name": "chatglm-6b-int4",
         "pretrained_model_name": "models/chatglm-6b-int4",
-        "local_model_path": "models/chatglm-6b-int4",
+        "local_model_path": None,
         "provides": "ChatGLM"
     },
     "chatglm-6b-int8": {

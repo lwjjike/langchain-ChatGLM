@@ -43,7 +43,7 @@ llm_model_dict = {
     "chatglm-6b-int4": {
         "name": "chatglm-6b-int4",
         "pretrained_model_name": "models/chatglm-6b-int4",
-        "local_model_path": "models/chatglm-6b-int4",
+        "local_model_path": None,
         "provides": "ChatGLM"
     },
     "chatglm-6b-int8": {
@@ -99,7 +99,6 @@ llm_model_dict = {
 
 # LLM 名称
 LLM_MODEL = "chatglm-6b-int4"
-NO_REMOTE_MODEL = True
 # 量化加载8bit 模型
 LOAD_IN_8BIT = False
 # Load the model with bfloat16 precision. Requires NVIDIA Ampere GPU.
